@@ -28,8 +28,12 @@ div{
     margin-bottom: 20px;
 }
 
-input{
-    margin:5px;
+input:invalid{
+        background-color: rgb(134, 75, 75);
 }
+input:valid{
+    background-color: rgb(129, 241, 125);
+}
+
 
 
