@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Practica1Caso1.css">
+    <title>Registro de usuarios</title>
+</head>
+<body>
+    <form action="">
+        <div class="container">
+
+            <h1>Formulario de registro</h1>
+            <div>
+                <label for="Nombre" class="forma1">Nombre del usuario:</label>
+                <input type="text" id="Nombre" required>
+
+                <label for="Gmail"class="forma1">Email:</label>
+                <input type="email" id="Gmail">
+
+                <label for="password" class="forma1">Password:</label>
+                <input type="password"id="password" required>
+                
+                <label for="telefono" class="forma1">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+                
+                <label for="Fecha"class="forma1">Fecha de Nacimiento</label>
+                <input type="date" id="datetime">
+
+
+
+            </div>
+
+            <div>
+                <label for="Ocupación" class="form2">Ocupación:</label>
+                <select  id="Ocupación" selected   >
+                    <option value="OCUPACIONES">Policia</option>
+                    <option value="OCUPACIONES">desarrollo web</option>
+                    <option value="OCUPACIONES">Maestro</option>
+                    <option value="OCUPACIONES">Artista</option>
+                </select>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="opciones "  class="forma1">Seleccione la talla de camisa</label>
+                <label for="opcionS,">S</label>
+                <input type="radio" id="opcion1" name="opciones" value="opcion1">
+            
+                <label for="opcionM">M</label>
+                <input type="radio" id="opcion2" name="opciones" value="opcion2">
+
+                <label for="opcionL">L</label>
+                <input type="radio" id="opcion3" name="opciones" value="opcion3">
+
+                <label for="opcionXL">XL</label>
+                <input type="radio" id="opcion4" name="opciones" value="opcion4">
+            </div>
+
+            <div>
+                <label   label for=""  class="forma1">preferencias dietéticas</label>
+                <input type="checkbox"  name="opcion" id="vegetariano," >
+                <label for="vegetariano,">vegetariano</label>
+
+                <input type="checkbox" name="opcion2" id="vegano">
+                <label for="vegano">vegano</label>
+
+                <input type="checkbox" name="opcion3" id="sin_gluten">
+                <label for="sin_gluten">sin gluten</label>
+
+                <input type="checkbox" name="opcion4" id="sin_restricciones">
+                <label for="sin restricciones">sin restricciones</label>
+            </div> 
+            
+            
+
+            <div>
+                <label for="Intereses en desarrollo web" class="form2">Intereses en desarrollo web:</label>
+                <select  id="Intereses" selected   >
+                    <option value="OCUPACIONES">Diseño web</option>
+                    <option value="OCUPACIONES">Diseño web</option>
+                    <option value="OCUPACIONES">Programación front-end</option>
+                    <option value="OCUPACIONES">Programación back-end</option>
+                    <option value="OCUPACIONES">Seguridad web</option>
+                </select>
+            </div>
+
+            
+            <div>
+                <label   label for=""  class="forma1">¿Necesitas algún requisito de accesibilidad?</label>
+                <input type="checkbox"  name="opcion" id="Sillas" >
+                <label for="Sillas de ruedas">Sillas de ruedas </label>
+
+                <input type="checkbox" name="opcion2" id="lenguaje">
+                <label for="lenguaje">Interpretación en lenguaje de señas</label>
+
+                <input type="checkbox" name="opcion3" id="Ningún">
+                <label for="Ningún">Ningún requisito de accesibilidad</label>
+
+            </div>  
+
+            <div class="Boton">
+                <input type="submit" >
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
