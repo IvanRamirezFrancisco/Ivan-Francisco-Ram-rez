@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+}
+
+form{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #5384ce;
+    border-radius: 99px;
+}
+
+body{
+    background-color: rgb(37, 105, 184);
+}
+
+input:valid{
+background-color: rgb(129, 241, 125);
+
+}
+input:invalid{
+    background-color: rgb(134, 75, 75);
+}
+h1:hover{
+    font-weight: solid;
+}
+
+p:hover{
+    font-weight: solid;
+}
+
+
+.letra{
+    font-family: 'Times New Roman', Times, serif;   
+    color: rgb(255, 254, 254);
+}
+.letras{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+.letra1{
+    font-weight: 200;
+    font-size: larger;
+    font-family: fantasy;
+    color: blue;
+}
+textarea{
+    background-color: rgb(75, 128, 145);
+    margin: 10px;
+}
